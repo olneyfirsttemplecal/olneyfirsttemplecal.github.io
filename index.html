@@ -17,6 +17,11 @@ $(document).ready(function() {
         googleCalendarApiKey: 'AIzaSyBbiwq9KkEQSyIFaRc5ZYg86eTToq_41co',
         events: {
             googleCalendarId: 'qgdrb1qm7plepfk0va7jdsthms@group.calendar.google.com'
+        },
+        header: {
+            left: '',
+            center: 'title',
+            right: 'prev,next today'
         }
     });
 });
@@ -38,6 +43,10 @@ $(document).ready(function() {
 	#calendar {
 		max-width: 900px;
 		margin: 0 auto;
+	}
+	.fc-toolbar
+	{
+  		background: no-repeat url("https://upload.wikimedia.org/wikipedia/commons/7/7e/DCTemple-c.jpg");
 	}
 </style>
 </head>
